@@ -1,0 +1,135 @@
+@import 'tailwindcss';
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* Header */
+.header {
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom: 1px solid #1e293b;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #94a3b8;
+}
+
+.header-actions {
+  margin-top: 20px;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  margin: 0 8px;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.skills span {
+  display: inline-block;
+  margin: 6px;
+  padding: 8px 14px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Projects */
+.project {
+  padding: 20px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+}
+
+.project ul {
+  padding-left: 20px;
+  color: #94a3b8;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #60a5fa;
+  text-decoration: none;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+ padding: 20px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+.contact-form label {
+  margin-bottom: 6px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #1e293b;
+  border-radius: 4px;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+.contact-form button {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+/* Contact */
+.contact-links a {
+  display: block;
+  margin: 6px 0;
+  color: #60a5fa;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #1e293b;
+  color: #94a3b8;
+}
